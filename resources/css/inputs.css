@@ -1,0 +1,99 @@
+.body_card{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.frm{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+}
+.input__section input{
+    width: 100%;
+    height: 24px;
+    outline: red;
+}
+.card{
+    width: 90%;
+    margin: 0 auto;
+}
+.card h1{
+    text-align: center;
+}
+.header_card{
+    background-color: rgba(78, 101, 173, 0.795);
+    height: 70px;
+    border-radius:10px 10px 0 0;
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+}
+.btn{
+    width: 129px;
+    height: 47px;
+    text-decoration: none;
+    background-color: rgb(61, 25, 107);
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    left: 20px;
+    top: 12px;
+}
+/* tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+}
+
+.table th, .table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* botones */
+.btn_eliminar, .btn_editar{
+    display: inline-block;
+    background-color: #2a1c79; 
+    color: #fff; 
+    padding: 9px 17px; 
+    border-radius: 5px; 
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+    border: none;
+}
+.btn_eliminar{
+    background-color: red;
+    transition: .3 ease;
+}
+.btn_editar{
+    background-color: #1c7924;
+    transition: .3 ease;
+}
+
+.btn_eliminar:hover{
+    background-color: rgb(180, 65, 65);
+}
+.btn_editar:hover{
+    background-color: #185744;
+}
